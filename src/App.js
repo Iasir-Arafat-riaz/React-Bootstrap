@@ -9,6 +9,7 @@ function App() {
       <h1>React bootsTrap</h1>
       <Button variant="success">Success</Button>
       <News></News>
+      <p>add</p>
     </div>
   );
 }
