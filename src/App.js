@@ -11,7 +11,7 @@ function App() {
       <h1>React bootsTrap</h1>
       <Header></Header>
       <TopHeadline></TopHeadline>
-      <News></News>
+      
       <p>add</p>
     </div>
   );
