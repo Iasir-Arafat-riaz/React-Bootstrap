@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import News from '../News/News';
 
 const TopHeadline = () => {
     const[headline,setHeadline]=useState([])
@@ -12,6 +13,7 @@ const TopHeadline = () => {
         <div>
             
             <h1>Top Headlines :{headline.length}</h1>
+            {headline.map(hdline=><News></News>)}
 
         </div>
        
